@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Firebase Comment App</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6 col-sm-offset-3">
+				<h1>Firebase Comment App</h1>
+
+				<form id="commentForm">
+					<div class="form-group">
+						<input id="username" class="form-control" placeholder="username">
+					</div>
+					<div class="form-group">
+						<textarea id="comment" class="form-control" placeholder="comment"></textarea>
+					</div>
+					<div class="form-group">
+						<button type="button" id="addComment" class="btn btn-primary btn-lg">Add Comment</button>
+					</div>
+				</form>
+				<ul id="commentList" class="list-group">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="http://cdn.firebase.com/js/client/1.0.6/firebase.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

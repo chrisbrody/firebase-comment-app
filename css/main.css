@@ -1,0 +1,16 @@
+body {
+	text-align:center;
+
+}
+h1 {
+	margin-bottom:50px;
+}
+input {
+	margin-bottom:20px;
+}
+li {
+	font-size:20px;
+	list-style-type: none;
+	margin-top: 1%;
+	text-align:left;
+}
